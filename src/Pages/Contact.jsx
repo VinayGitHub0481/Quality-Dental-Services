@@ -103,7 +103,7 @@ return (
       marginTop: '40px',
       textAlign: 'center',
       color: '#333',
-    fontSize: "16px" ,marginTop:'2rem',
+    fontSize: "16px" ,
     border:'1px solid',
     borderRadius:'10px',
     backgroundColor:"#f0f8ff"
