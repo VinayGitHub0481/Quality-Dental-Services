@@ -1,7 +1,6 @@
 
 //  Services Page:- List at least 6 dental services
-//  - For each service, show title, image/icon, and a short description
-//  - Optional: Service details expandable using modal or accordion (bonus)
+
 import { useState } from 'react'
 import Cleanings from '../images/Cleanings.jpg'
 import Crowns from '../images/Crowns.jpg'
@@ -91,61 +90,3 @@ const services=[
 
 export default Services;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* 
-        <section>
-   <h2 style={{fontStyle:'italic',marginTop:'1.5rem'}}> Dental Cleanings (Prophylaxis) </h2>
-   <img src={Cleanings} alt="Dental Cleanings"  style={{width:'300px', height: '200px',borderRadius:'1-px',border:'3px solid'}}/>
-  <p style={{fontStyle:'italic'}}>
-  </p>
-  </section>
-
-   <section>
-   <h2 style={{fontStyle:'italic',marginTop:'1.5rem'}}>Fillings </h2>
-    <img src={Fillings1} alt="Fillings"  style={{width:'300px', height: '200px',borderRadius:'1-px',border:'3px solid'}} />
-  <p style={{fontStyle:'italic'}}> <strong></strong></p>
-  </section>
-
-   <section>
-   <h2 style={{fontStyle:'italic' ,marginTop:'1.5rem'}}>Root Canal Treatment </h2>
-    <img src={Root_Canal_1}  alt="Root Canal Treatment" style={{width:'300px', height: '200px',borderRadius:'1-px',border:'3px solid'} }/>
-  <p style={{fontStyle:'italic'}}>  <strong></strong></p>
-  </section>
-
-   <section>
-   <h2 style={{fontStyle:'italic' ,marginTop:'1.5rem'}}> Tooth Extractions </h2>
-    <img src={Tooth_Extraction_1} alt="Tooth Extractions" style={{width:'300px', height: '200px',borderRadius:'1-px',border:'3px solid'} } />
-  <p style={{fontStyle:'italic'}}>  <strong> </strong></p>
-  </section>
-
-   <section>
-   <h2 style={{fontStyle:'italic' ,marginTop:'1.5rem'}}>  Teeth Whitening </h2>
-    <img src={whitening} alt="Teeth Whitening"  style={{width:'300px', height: '200px',borderRadius:'1-px',border:'3px solid'} }/>
-  <p style={{fontStyle:'italic'}}> <strong> .</strong></p>
-  </section>
-
-   <section>
-   <h2 style={{fontStyle:'italic' ,marginTop:'1.5rem'}}> Crowns and Bridges</h2>
-    <img src={Crowns} alt="Crowns and Bridges" style={{width:'300px', height: '200px',borderRadius:'1-px',border:'3px solid'} }/>
-  <p style={{fontStyle:'italic'}}> <strong> </strong></p>
-  </section> */}
